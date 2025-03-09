@@ -10,7 +10,7 @@ const Footer = () => {
         <div
           className="my-6 flex items-center gap-4 after:h-1 after:bg-gray-500 after:rounded-full after:content-[''] 
                       after:flex-1 after:w-full sm:after:w-3/4 md:after:w-1/2 lg:after:w-1/4 xl:after:w-1/6 
-                      after:hidden sm:after:block text-center"
+                      after:hidden sm:after:block text-center text-[#4AC3EB]"
         >
           Contact Us
         </div>
