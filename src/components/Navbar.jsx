@@ -83,13 +83,13 @@ const Navbar = () => {
               <span className="text-xs cursor-pointer text-white">Contact</span>
             </button>
           </li>
-          {/* <li>
-            <Link to="/broucher" onClick={() => handleNavClick("events")}>
+          <li>
+            <Link to="/broucher" onClick={() => handleNavClick("broucher")}>
               <button>
                 <span className="text-xs cursor-pointer text-white">Broucher</span>
               </button>
             </Link>
-          </li> */}
+          </li>
         </ul>
       </div>
       <div className="flex items-center gap-6">
