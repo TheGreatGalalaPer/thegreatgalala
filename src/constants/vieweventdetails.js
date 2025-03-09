@@ -145,7 +145,7 @@ export const viewEventDetails = {
       "Participants must adapt their dance moves according to the song played.",
     ],
   },
-  rampwalk: {
+  rampwalkandcosplay: {
     title: "RampWalk-Cosplay",
     title_font: "font-fashion",
     title_size: "text-3xl",
@@ -153,7 +153,7 @@ export const viewEventDetails = {
     brief:
       "A fashion and cosplay event where participants display their outfits with elegance and attitude.",
     poster: rampwalk,
-    url: "rampwalk-cosplay",
+    url: "rampwalkandcosplay",
     eventDetails: {
       time: "-",
       date1: "27 Mar 2025",
@@ -351,7 +351,7 @@ export const viewEventDetails = {
     ],
   },
   esports: {
-    title: "E-Sports",
+    title: "E Sports",
     title_font: "font-gaming",
     title_size: "text-3xl",
     description: "Compete in the ultimate digital battle!",
@@ -518,7 +518,7 @@ export const viewEventDetails = {
     ],
   },
   webdesign: {
-    title: "Web Design (UI/UX)",
+    title: "Web Design",
     title_font: "font-tech",
     title_size: "text-3xl",
     description: "Create visually stunning and user-friendly websites!",

@@ -56,7 +56,7 @@ export const technicalEvents = [
   {
     id: 5,
     image: webdesign,
-    title: "Web Design (UI/UX)",
+    title: "Web Design",
     url: "webdesign",
     category: "technical",
   },
@@ -100,8 +100,8 @@ export const onStageEvents = [
   {
     id: 6,
     image: rampwalk,
-    title: "RampWalk-Cosplay",
-    url: "rampwalk-cosplay",
+    title: "RampWalk and Cosplay",
+    url: "rampwalkandcosplay",
     category: "onstage",
   },
   {
@@ -172,7 +172,7 @@ export const offStageEvents = [
   {
     id: 7,
     image: esports,
-    title: "E-sports (Bgmi, Freefire, Valorant)",
+    title: "E sports",
     url: "esports",
     category: "offstage",
   },

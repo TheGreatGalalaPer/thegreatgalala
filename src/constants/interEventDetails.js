@@ -59,8 +59,8 @@ export const onStageEvents = [
   {
     id: 6,
     image: rampwalk,
-    title: "RampWalk-Cosplay",
-    url: "rampwalk-cosplay",
+    title: "RampWalk and Cosplay",
+    url: "rampwalkandcosplay",
     category: "onstage",
   },
   {

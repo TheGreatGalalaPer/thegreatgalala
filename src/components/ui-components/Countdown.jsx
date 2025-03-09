@@ -47,15 +47,15 @@ const Countdown = () => {
   useEffect(() => startCountDown(), [startCountDown]);
 
   return (
-    <div className="flex justify-center gap-3 sm:gap-8">
+    <div className="flex justify-center gap-3 sm:gap-8 mr-6 ml-12 mt-32 mb-32">
       {Object.entries(countDownTime).map(([label, value]) => (
         <div key={label} className="flex flex-col gap-5">
-          <div className="h-16 w-16 sm:w-20 sm:h-20 md:w-24 md:h-24 lg:w-32 lg:h-32 flex items-center justify-center bg-[#343650] rounded-lg shadow-md">
+          <div className="h-16 w-16 sm:w-16 sm:h-16 md:w-24 md:h-24 lg:w-32 lg:h-32 flex items-center justify-center bg-[#343650] rounded-lg shadow-md">
             <span className="lg:text-4xl sm:text-1xl text-2xl font-semibold text-[#a5b4fc]">
               {value}
             </span>
           </div>
-          <span className="text-white text-xs sm:text-xs md:text-xs uppercase">
+          <span className="text-white text-xs sm:text-s md:text-xs uppercase">
             {label}
           </span>
         </div>

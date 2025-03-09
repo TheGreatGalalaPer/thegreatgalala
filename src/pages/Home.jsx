@@ -9,6 +9,7 @@ import Background from "../components/Background";
 import Fireworks from "../components/ui/fireworks";
 import Sponsors from "../components/Sponsors";
 import Events from "../components/Events";
+import Marquee from "../components/Marquee"
 import Footer from "../components/Footer";
 
 const Home = () => {
@@ -27,16 +28,20 @@ const Home = () => {
     <div className="w-screen h-auto bg-[#2D1D4C] bg-cover relative">
       <div className="absolute inset-0 z-0">
         <Background />
+        
       </div>
+      <StarsBackground/>
+      <ShootingStars/>
       <Fireworks />
       <Navbar />
       <section id="hero">
         <Hero />
       </section>
+       {/* <Sponsors />  */}
       <section id="about">
         <About />
       </section>
-      {/* <Sponsors /> */} {/* Uncomment if needed */}
+      {/* <Marquee/> */}
       <section id="events">
         <Events />
       </section>

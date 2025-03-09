@@ -9,8 +9,10 @@ export default function Carousel() {
   let slides = [
     "/band.png",
     "/beatbox.png",
-    "dancee.png",
-    "/guest2.png",
+    "/guest4.png",
+    "/dancee.png",
+    "/guest3.jpg",
+    "/mguest2.png",
   ];
 
   useEffect(() => {
@@ -29,7 +31,7 @@ export default function Carousel() {
   };
 
   return (
-    <div className="overflow-hidden relative ">
+    <div className="overflow-hidden relative max-w-[600px] max-h-[400px] ">
       <div
         className="flex transition-transform ease-out duration-1000 "
         style={{ transform: `translateX(-${current * 100}%)` }}

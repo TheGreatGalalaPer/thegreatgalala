@@ -6,7 +6,7 @@ import { BackgroundGradient } from "./ui/background-gradient";
 
 const Events = () => {
   return (
-    <div className="flex w-full min-h-screen overflow-hidden px-8 py-4 flex-col items-center mb-5">
+    <div className="flex w-full min-h-screen overflow-hidden px-8 py-4 flex-col items-center mb-64">
       <div className="w-full flex flex-col items-center">
         <div className="text-white pb-16 text-4xl tracking-tight lg:mt-20 lg:text-6xl w-full flex items-center justify-center">
           <div className="flex items-center w-full">
