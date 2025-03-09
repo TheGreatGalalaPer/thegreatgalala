@@ -1,11 +1,11 @@
 import React, { useEffect, useRef } from "react";
 
 // Firework animation settings
-const PARTICLES_PER_FIREWORK = 275;
-const FIREWORK_CHANCE = 0.2;
-const BASE_PARTICLE_SPEED = 0.3;
+const PARTICLES_PER_FIREWORK = 400;
+const FIREWORK_CHANCE = 0.02;
+const BASE_PARTICLE_SPEED = 0.5;
 const FIREWORK_LIFESPAN = 300;
-const PARTICLE_INITIAL_SPEED = 1.5;
+const PARTICLE_INITIAL_SPEED = 2.5;
 const GRAVITY = 9.8;
 
 const Fireworks = () => {
