@@ -8,11 +8,11 @@ export default function Carousel() {
   let [current, setCurrent] = useState(0);
   let slides = [
     "/band.png",
-    "/beatbox.png",
-    "/guest4.png",
     "/dancee.png",
-    "/guest3.jpg",
+    "/guest4.png",
+    "/beatbox.png",
     "/mguest2.png",
+    "/mguest2.pngguest3.jpg",
   ];
 
   useEffect(() => {
