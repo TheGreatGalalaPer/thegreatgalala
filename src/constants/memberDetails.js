@@ -34,6 +34,13 @@ const memberDetails = [
     role: "ig__.dranzer",
     instagram: "https://www.linkedin.com/in/aakash-kummar-72a97431b/",
   },
+  {
+    id: 6,
+    image: "/aaka",
+    name: "Eshwanth B",
+    role: "ig.x_sage",
+    instagram: "https://www.instagram.com/ig.x_sage",
+  },
 ];
 
 export default memberDetails;
