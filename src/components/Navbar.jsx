@@ -72,7 +72,7 @@ const Navbar = () => {
             </Link>
           </li>
           <li>
-            <Link to="/team" onClick={() => handleNavClick("events")}>
+            <Link to="/team" onClick={() => handleNavClick("team")}>
               <button>
                 <span className="text-xs cursor-pointer text-white">Team</span>
               </button>
