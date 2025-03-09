@@ -6,7 +6,7 @@ const events = [
   {
     id: 1,
     title: "Sponsors broucher",
-    image: "/band.png",
+    image: "/spons.png",
     brochure: "/downloads/Sponsorship_Broucher.pdf",
   },
   {
