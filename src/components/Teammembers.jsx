@@ -12,7 +12,7 @@ const Teammember = () => {
           <div className="flex-1 h-2 bg-gray-300 rounded-full hidden sm:block"></div>
         </div>
       </div>
-      <div className="grid grid-cols-1 md:grid-cols-3 gap-50">
+      <div className="grid grid-cols-1 md:grid-cols-3 gap-50 z-10">
         {memberDetails.slice(0, 3).map((member) => (
           <Member
             key={member.id}

@@ -47,11 +47,11 @@ const Footer = () => {
             </div>
             <div>
               <h2 className="mb-4 text-xs font-semibold text-white uppercase">
-                Staff Co-Ordinators
+                Student Co-Ordinators
               </h2>
               <ul className="text-gray-300 text-sm">
                 <li className="mb-4">Mr. S S Sujeeth - 9790232920</li>
-                <li className="mb-4">Mr. Harish Babu - 9360491955</li>
+                <li className="mb-4">Mr. Harish Babu - 8428245875</li>
                 <li className="mb-4">Ms. Sabitha - 7603992191</li>
                 <li className="mb-4">Ms. S. Divya - 9345375156</li>
                 <li className="mb-4">Mr. Sai Prasanth- 7305608399</li>

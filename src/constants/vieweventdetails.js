@@ -20,6 +20,7 @@ import boxcricket from "../assets/eventdetails/boxcricket.jpeg";
 import animequiz from "../assets/eventdetails/animequiz.jpeg";
 import reels from "../assets/eventdetails/reels.jpeg";
 import startmusic from "../assets/eventdetails/startmusic.jpeg";
+import solosinging from "../assets/eventdetails/solosinging.png";
 
 export const viewEventDetails = {
   solodance: {
@@ -145,14 +146,14 @@ export const viewEventDetails = {
     ],
   },
   rampwalk: {
-    title: "Ramp Walk / Cosplay",
+    title: "RampWalk-Cosplay",
     title_font: "font-fashion",
     title_size: "text-3xl",
     description: "Showcase your style, confidence, and creativity on the ramp!",
     brief:
       "A fashion and cosplay event where participants display their outfits with elegance and attitude.",
     poster: rampwalk,
-    url: "rampwalk",
+    url: "rampwalk-cosplay",
     eventDetails: {
       time: "-",
       date1: "27 Mar 2025",
@@ -186,7 +187,7 @@ export const viewEventDetails = {
     rules: [
       "Each team must have 5-8 members.",
       "Performance timing is 5-7 minutes.",
-      "Cue will be given by the judge to change the channel on the spot.",
+      "Clue will be given by the judge to change the channel on the spot.",
       "Performance has to be changed immediately after that.",
       "All the participants in the group should act accordingly.",
     ],
@@ -493,7 +494,7 @@ export const viewEventDetails = {
       "No external help (internet, books, or audience assistance) is allowed.",
     ],
   },
-  justaminute: {
+  justamin: {
     title: "Just A Minute",
     title_font: "font-public_speaking",
     title_size: "text-3xl",
@@ -501,7 +502,7 @@ export const viewEventDetails = {
     brief:
       "Participants will be given a topic on the spot and must speak for one minute without hesitation or repetition.",
     poster: justaminute,
-    url: "justaminute",
+    url: "justamin",
     eventDetails: {
       time: "-",
       date1: "27 Mar 2025",
@@ -544,9 +545,9 @@ export const viewEventDetails = {
     title_size: "text-3xl",
     description: "Create visually stunning and user-friendly websites!",
     brief:
-      "Participants will design a functional and aesthetically pleasing web interface based on the given theme.",
-    poster: webdesign,
-    url: "webdesign",
+      "Participants will Sing and show their vocal prowess for whole 3 minute",
+    poster: solosinging,
+    url: "solosinging",
     eventDetails: {
       time: "-",
       date1: "27 Mar 2025",
@@ -554,10 +555,9 @@ export const viewEventDetails = {
       fees: "₹100",
     },
     rules: [
-      "Participants can compete individually or in teams.",
-      "The design must align with the given theme.",
-      "Websites should focus on smooth navigation, clear typography, and good color contrast.",
-      "Each team/participant will get 8-10 minutes to present their design.  ",
+      "Eachparticipant has a total time of 3 mins",
+      "Participants are not allowed to perform more than the time limit If done the participant will be disqualified",
+      "Strictly karaoke track allowed ",
     ],
   },
 };

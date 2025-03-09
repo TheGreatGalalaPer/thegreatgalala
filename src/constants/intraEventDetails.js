@@ -93,15 +93,15 @@ export const onStageEvents = [
   {
     id: 5,
     image: adapttune,
-    title: "AdapTune",
+    title: "Adapttune",
     url: "adapttune",
     category: "onstage",
   },
   {
     id: 6,
     image: rampwalk,
-    title: "Ramp Walk/Cosplay",
-    url: "rampwalk",
+    title: "RampWalk-Cosplay",
+    url: "rampwalk-cosplay",
     category: "onstage",
   },
   {
