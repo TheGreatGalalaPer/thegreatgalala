@@ -12,7 +12,7 @@ export default function Carousel() {
     "/guest4.png",
     "/beatbox.png",
     "/mguest2.png",
-    "/mguest2.pngguest3.jpg",
+    "/guest3.jpg",
   ];
 
   useEffect(() => {
