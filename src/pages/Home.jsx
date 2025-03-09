@@ -37,7 +37,7 @@ const Home = () => {
       <section id="hero">
         <Hero />
       </section>
-       {/* <Sponsors />  */}
+       <Sponsors /> 
       <section id="about">
         <About />
       </section>

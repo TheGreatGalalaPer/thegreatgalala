@@ -10,7 +10,6 @@ const Home = () => {
             <ShootingStars />
             <StarsBackground />
             <Navbar />
-
             <div className="w-full bg-black relative z-10">
                 <section id="footer">
                     <Footer />

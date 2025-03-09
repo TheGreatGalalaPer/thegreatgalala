@@ -2,15 +2,15 @@ import React from "react";
 import styled from "styled-components";
 
 const images = [
-  { title: "Image 1", src: "https://wallpaperaccess.com/full/809523.jpg" },
-  { title: "Image 2", src: "https://wallpaperaccess.com/full/809523.jpg" },
-  { title: "Image 3", src: "https://wallpaperaccess.com/full/809523.jpg" },
-  { title: "Image 4", src: "https://wallpaperaccess.com/full/809523.jpg" },
-  { title: "Image 5", src: "https://wallpaperaccess.com/full/809523.jpg" },
-  { title: "Image 6", src: "https://wallpaperaccess.com/full/809523.jpg" },
-  { title: "Image 7", src: "https://wallpaperaccess.com/full/809523.jpg" },
-  { title: "Image 8", src: "https://wallpaperaccess.com/full/809523.jpg" },
-  { title: "Image 9", src: "https://wallpaperaccess.com/full/809523.jpg" },
+  { title: "Image 1", src: "/wipro-logo.png" },
+  { title: "Image 2", src: "/caampa.png" },
+  { title: "Image 3", src: "thalapakatti.png" },
+  { title: "Image 4", src: "/wipro-logo.png" },
+  { title: "Image 5", src: "/caampa.png" },
+  { title: "Image 6", src: "thalapakatti.png" },  
+  { title: "Image 7", src: "/wipro-logo.png" },
+  { title: "Image 8", src: "/caampa.png" },
+  { title: "Image 9", src: "thalapakatti.png" },
 ];
 
 const Sponsorscards = () => {
@@ -61,8 +61,10 @@ const StyledWrapper = styled.div`
   .slider .list .item {
     flex: 0 0 200px;
     height: 200px;
-    opacity: 0.7;
+    opacity: 0.9;
+    display:flex;
     transition: opacity 0.5s;
+    align-items:center;
     padding: 10px;
   }
 
