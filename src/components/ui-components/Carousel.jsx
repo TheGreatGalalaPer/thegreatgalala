@@ -8,17 +8,16 @@ export default function Carousel() {
   let [current, setCurrent] = useState(0);
   let slides = [
     "/band.png",
-    "/dancee.png",
-    "/guest4.png",
+    "/litdance.png",
     "/beatbox.png",
+    "/guest4.png",
     "/mguest2.png",
-    "/guest3.jpg",
   ];
 
   useEffect(() => {
     const interval = setInterval(() => {
       setCurrent((prev) => (prev === slides.length - 1 ? 0 : prev + 1));
-    }, 3000);
+    }, 5000);
     return () => clearInterval(interval);
   }, [current]);
 

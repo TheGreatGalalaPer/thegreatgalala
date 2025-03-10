@@ -8,7 +8,7 @@ const memberDetails = [
   },
   {
     id: 2,
-    image: "../../assets/intracollege.png",
+    image: "/abdul.jpg",
     name: "Abdul Samad M",
     role: "Designer",
     instagram: "https://www.linkedin.com/in/abdul-samad-m-618935320/",
@@ -16,7 +16,7 @@ const memberDetails = [
   {
     id: 3,
     image: "/rohith.jpeg",
-    name: "Rohit.K",
+    name: "Rohit K",
     role: "Developer",
     instagram: "https://rohit-portfolio1.vercel.app/",
   },
@@ -36,7 +36,7 @@ const memberDetails = [
   },
   {
     id: 6,
-    image: "/aaka",
+    image: "/eshwanth.jpg",
     name: "Eshwanth B",
     role: "Content & Data Manager",
     instagram: "https://www.instagram.com/ig.x_sage",
