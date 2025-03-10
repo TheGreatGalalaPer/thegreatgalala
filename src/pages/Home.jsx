@@ -11,6 +11,7 @@ import Sponsors from "../components/Sponsors";
 import Events from "../components/Events";
 import Marquee from "../components/Marquee"
 import Footer from "../components/Footer";
+import Peridescription from "../components/Peridescription";
 
 const Home = () => {
   const location = useLocation();
@@ -37,8 +38,9 @@ const Home = () => {
       <section id="hero">
         <Hero />
       </section>
-       <Sponsors /> 
       <section id="about">
+        <Peridescription/>
+        {/* <Sponsors /> */}
         <About />
       </section>
       <Marquee/>

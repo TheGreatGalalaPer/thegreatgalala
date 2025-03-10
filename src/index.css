@@ -16,3 +16,24 @@ input,
 textarea {
   cursor: text;
 }
+@font-face {
+  font-family: "Guardians";
+  src: url("/fonts/Guardians.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "LexendDecaRegular";
+  src: url("/fonts/LexendDecaRegular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+.font-guardians {
+  font-family: "Guardians", sans-serif;
+}
+
+.font-lexend {
+  font-family: "LexendDecaRegular", sans-serif;
+}

@@ -1,13 +1,13 @@
 @font-face {
   font-family: "Guardians";
-  src: url("/fonts/Guardians.ttf") format("woff2");
+  src: url("/fonts/Guardians.ttf") format("truetype");
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
   font-family: "LexendDecaRegular";
-  src: url("/fonts/LexendDecaRegular.ttf") format("woff2");
+  src: url("/fonts/LexendDecaRegular.ttf") format("truetype");
   font-weight: normal;
   font-style: normal;
 }

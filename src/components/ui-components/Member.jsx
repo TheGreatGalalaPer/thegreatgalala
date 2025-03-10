@@ -28,7 +28,7 @@ const Member = ({ image, name, role, instagram }) => {
               href={instagram}
               target="_blank"
               rel="noopener noreferrer"
-              className="text-gray-400 hover:text-gray-300 transition duration-300"
+              className="text-gray-400 hover:text-gray-1000 transition duration-300 font-lexend uppercase font-bold"
             >
               {role}
             </a>

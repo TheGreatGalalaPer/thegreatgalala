@@ -16,12 +16,12 @@ const Events = () => {
           </div>
         </div>
       </div>
-      <div className="flex flex-wrap gap-40 md:gap-80 pt-10 justify-center">
-        <BackgroundGradient>
-          <Eventcategory imageUrl={intracollege} eventName="Intra College" />
-        </BackgroundGradient>
+      <div className="flex flex-wrap gap-40 md:gap-80 pt-10 justify-center uppercase">
         <BackgroundGradient>
           <Eventcategory imageUrl={intercollege} eventName="Inter College" />
+        </BackgroundGradient>
+        <BackgroundGradient>
+          <Eventcategory imageUrl={intracollege} eventName="Intra College" />
         </BackgroundGradient>
       </div>
     </div>
