@@ -86,7 +86,7 @@ const Navbar = () => {
           <li>
             <Link to="/broucher" onClick={() => handleNavClick("broucher")}>
               <button>
-                <span className="text-xs cursor-pointer text-white">Broucher</span>
+                <span className="text-xs cursor-pointer text-white">Brochure</span>
               </button>
             </Link>
           </li>

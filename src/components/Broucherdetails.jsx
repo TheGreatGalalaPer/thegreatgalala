@@ -5,7 +5,7 @@ import tgglogo from "../assets/tgglogo.svg";
 const events = [
   {
     id: 1,
-    title: "Sponsors broucher",
+    title: "Sponsors brochure",
     image: "/spons.png",
     brochure: "/downloads/Sponsorship_Broucher.pdf",
   },

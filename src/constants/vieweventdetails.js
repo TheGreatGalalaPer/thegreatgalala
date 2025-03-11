@@ -93,7 +93,7 @@ export const viewEventDetails = {
       "Each band should have 3-8 members.",
       "The time limit to perform is 6 minutes and 3 minutes for sound check.",
       "Backing tracks are not allowed.",
-      "Theteamhasto report 45 minutes prior the event.",
+      "The team has to report 45 minutes prior the event.",
       "Obscene language or offensive content will lead to disqualification.",
       "The order of performances will be decided and the time slots will be allotted to each band on that day.",
       "The band is required to bring their gear and other necessary instruments along with all necessary cables.",
