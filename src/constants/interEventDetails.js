@@ -17,7 +17,7 @@ import solosinging from "../assets/eventdetails/solosinging.png";
 import boxcricket from "../assets/eventdetails/boxcricket.jpeg";
 import connectionz from "../assets/eventdetails/connectionz.jpeg";
 import shortfilm from "../assets/eventdetails/shortfilm.jpeg";
-
+import mehandi from "../assets/eventdetails/mehandi.png";
 
 
 export const onStageEvents = [
@@ -148,5 +148,12 @@ export const offStageEvents = [
     title: "IPL Auction House",
     url: "iplauctionhouse",
     category: "offstage",
+  },
+  {
+    id:10,
+    image:mehandi,
+    title:"Mehandi",
+    url:"mehandi",
+    category:"offstage",
   },
 ];

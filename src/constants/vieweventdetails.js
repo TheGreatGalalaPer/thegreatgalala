@@ -21,6 +21,7 @@ import animequiz from "../assets/eventdetails/animequiz.jpeg";
 import reels from "../assets/eventdetails/reels.jpeg";
 import startmusic from "../assets/eventdetails/startmusic.jpeg";
 import solosinging from "../assets/eventdetails/solosinging.png";
+import mehandi from "../assets/eventdetails/mehandi.png"
 
 export const viewEventDetails = {
   solodance: {
@@ -421,6 +422,31 @@ export const viewEventDetails = {
       "Bidding rules and player lists will be provided before the event.",
       "Strategic planning and budget management are key.",
       "Decisions of the auctioneers will be final.",
+    ],
+  },
+  mehandi: {
+    title: "Mehandi",
+    title_font: "font-sports",
+    title_size: "text-3xl",
+    description: "Showcase your Creativity and Design Skill Through Traditional Henna",
+    brief:
+      "Participants Compete With each other and shows their Mehandi Skills",
+    poster: mehandi,
+    url: "mehandi",
+    eventDetails: {
+      time: "-",
+      date1: "27 Mar 2025",
+      date2: "28 Mar 2025",
+      fees: "₹50 per person",
+    },
+    rules: [
+      "Time Given 1 Hour",
+      "No extra time given.",
+      "Any themed design or free design.",
+      "Mehendi should be bought by your own.",
+      "Mehendi should cover one hand.",
+      "Participate can apply on their own hand or other person's hand (try to bring your model)",
+      "Members participate-1",
     ],
   },
   debate: {
