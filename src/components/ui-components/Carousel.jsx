@@ -8,8 +8,8 @@ export default function Carousel() {
   let [current, setCurrent] = useState(0);
   let slides = [
     "/band.png",
-    "/litdance.png",
     "/beatbox.png",
+    "/litdance.png",
     "/guest4.png",
     "/mguest2.png",
   ];
