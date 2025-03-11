@@ -11,7 +11,7 @@ const events = [
   },
   {
     id: 2,
-    title: "Event Brouchers",
+    title: "Event Brochure",
     image: "/downloads/eventverall.jpg",
     brochure: "/downloads/event_Overall.jpg",
   },
