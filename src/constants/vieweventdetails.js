@@ -91,6 +91,7 @@ export const viewEventDetails = {
     },
     rules: [
       "Each band should have 3-8 members.",
+      "Drums Kit will be provided",
       "The time limit to perform is 6 minutes and 3 minutes for sound check.",
       "Backing tracks are not allowed.",
       "The team has to report 45 minutes prior the event.",

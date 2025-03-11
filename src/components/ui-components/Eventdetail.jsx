@@ -20,6 +20,11 @@ const Eventdetail = () => {
     ? event.eventDetails.date1
     : event.eventDetails.date2;
 
+    // Registration Link
+    const registrationLink = location.pathname.includes("intercollege")
+    ? "https://docs.google.com/forms/d/e/1FAIpQLSclL22GdOpfwOs3S9XvJVJdjHZeB4wwE7O9bGP4Ni5scbCdHQ/viewform"
+    : "https://docs.google.com/forms/d/1SNOm2CeGZ5bL8J6mYQf_lszYMxQWF2lcan5lYLNKZbA/edit?ts=67cfbe1a"; // Replace with the actual intra-college form link
+
   return (
     <div className="flex w-full min-h-screen overflow-hidden px-5 py-4 flex-col items-center">
       <div className="w-full flex flex-col items-center">
@@ -104,17 +109,19 @@ const Eventdetail = () => {
             >
               <strong>Time:</strong> {event.eventDetails.time}
             </p>
-            <p
-              className="text-white text-sm sm:text-base leading-relaxed"
-              style={{ fontFamily: "LexendDecaRegular, sans-serif" }}
-            >
-              <strong>Fees:</strong> {event.eventDetails.fees}
-            </p>
+            {location.pathname.includes("intercollege") && (
+              <p
+                className="text-white text-sm sm:text-base leading-relaxed"
+                style={{ fontFamily: "LexendDecaRegular, sans-serif" }}
+              >
+                <strong>Fees:</strong> {event.eventDetails.fees}
+              </p>
+            )}
           </div>
 
           {/* Register Button */}
           <a
-            href="https://docs.google.com/forms/d/e/1FAIpQLSclL22GdOpfwOs3S9XvJVJdjHZeB4wwE7O9bGP4Ni5scbCdHQ/viewform"
+            href={registrationLink}
             target="_blank"
             rel="noopener noreferrer"
             className="bg-pink-500 text-white text-sm sm:text-base font-semibold px-6 py-3 rounded-lg 
