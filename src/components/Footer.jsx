@@ -54,7 +54,8 @@ const Footer = () => {
                 <li className="mb-4">Mr. Harish Babu - 8428245875</li>
                 <li className="mb-4">Ms. Sabitha - 7603992191</li>
                 <li className="mb-4">Ms. S. Divya - 9345375156</li>
-                <li className="mb-4">Mr. Sai Prasanth- 7305608399</li>
+                <li className="mb-4">Mr. Sai Prasanth - 7305608399</li>
+                <li className="mb-4">Mr.S Gokul Chandren - 8883195494</li>
               </ul>
             </div>
             <div className="w-full flex justify-center">
