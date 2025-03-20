@@ -23,7 +23,7 @@ const Eventdetail = () => {
     // Registration Link
     const registrationLink = location.pathname.includes("intercollege")
     ? "https://docs.google.com/forms/d/e/1FAIpQLSclL22GdOpfwOs3S9XvJVJdjHZeB4wwE7O9bGP4Ni5scbCdHQ/viewform"
-    : "https://docs.google.com/forms/d/e/1FAIpQLScEMTrBlBk5ytQTXF_zvI2ThsbOr_PDTvMCQwxuf1866u6gTQ/viewform?usp=sharing"; // Replace with the actual intra-college form link
+    : "https://docs.google.com/forms/d/e/1FAIpQLSfyAVU_sIX9ulaqq4MhkW-Yprtm-KPScC5CiB3ZFtJSEyACvQ/viewform?usp=header"; // Replace with the actual intra-college form link
 
   return (
     <div className="flex w-full min-h-screen overflow-hidden px-5 py-4 flex-col items-center">
