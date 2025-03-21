@@ -309,6 +309,7 @@ export const viewEventDetails = {
       "No running between wickets; scoring is based on boundaries.",
       "Fielders must not obstruct batters intentionally.",
       "Decisions of the umpires will be final.",
+      "Further Rules will be disclosed on Event Day."
     ],
   },
   connectionz: {
@@ -353,6 +354,7 @@ export const viewEventDetails = {
       "Content should be original, appropriate, and free from offensive material.",
       "Films must be in MP4 or MOV format with HD quality.",
       "No plagiarism or copyrighted material without permission.",
+      "The film must be provided on a USB drive on The Event Day."
     ],
   },
   esports: {
