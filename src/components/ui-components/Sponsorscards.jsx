@@ -2,15 +2,19 @@ import React from "react";
 import styled from "styled-components";
 
 const images = [
-  { title: "Image 1", src: "/wipro-logo.png" },
+  { title: "Image 1", src: "/poorvika.png" },
   { title: "Image 2", src: "/caampa.png" },
-  { title: "Image 3", src: "thalapakatti.png" },
-  { title: "Image 4", src: "/wipro-logo.png" },
-  { title: "Image 5", src: "/caampa.png" },
-  { title: "Image 6", src: "thalapakatti.png" },  
-  { title: "Image 7", src: "/wipro-logo.png" },
-  { title: "Image 8", src: "/caampa.png" },
-  { title: "Image 9", src: "thalapakatti.png" },
+  { title: "Image 3", src: "/shortfundly.png" },
+  { title: "Image 4", src: "/villagetech.png" },
+  { title: "Image 5", src: "/poorvika.png" },
+  { title: "Image 6", src: "/caampa.png" },
+  { title: "Image 7", src: "/shortfundly.png" },
+  { title: "Image 8", src: "/villagetech.png" },
+  { title: "Image 9", src: "/poorvika.png" },
+  { title: "Image 10", src: "/caampa.png" },
+  { title: "Image 11", src: "/shortfundly.png" },
+  { title: "Image 12", src: "/villagetech.png" },
+
 ];
 
 const Sponsorscards = () => {
