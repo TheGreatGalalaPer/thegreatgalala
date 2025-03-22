@@ -136,7 +136,7 @@ const Eventdetail = () => {
               target="_blank"
               rel="noopener noreferrer"
               className="bg-pink-500 text-white text-sm sm:text-base font-semibold px-6 py-3 rounded-lg 
-    shadow-lg transition-transform hover:scale-105 hover:shadow-pink-500/80 inline-block text-center"
+    shadow-lg transition-transform  inline-block text-center"
             >
               Reach Following Event Coordinator
             </a>
