@@ -20,8 +20,8 @@ const Eventdetail = () => {
     ? event.eventDetails.date1
     : event.eventDetails.date2;
 
-    // Registration Link
-    const registrationLink = location.pathname.includes("intercollege")
+  // Registration Link
+  const registrationLink = location.pathname.includes("intercollege")
     ? "https://docs.google.com/forms/d/e/1FAIpQLSclL22GdOpfwOs3S9XvJVJdjHZeB4wwE7O9bGP4Ni5scbCdHQ/viewform"
     : "https://docs.google.com/forms/d/e/1FAIpQLSfyAVU_sIX9ulaqq4MhkW-Yprtm-KPScC5CiB3ZFtJSEyACvQ/viewform"; // Replace with the actual intra-college form link
 
@@ -120,15 +120,28 @@ const Eventdetail = () => {
           </div>
 
           {/* Register Button */}
-          <a
-            href={registrationLink}
-            target="_blank"
-            rel="noopener noreferrer"
-            className="bg-pink-500 text-white text-sm sm:text-base font-semibold px-6 py-3 rounded-lg 
-  shadow-lg transition-transform hover:scale-105 hover:shadow-pink-500/80 inline-block text-center"
-          >
-            Register Now
-          </a>
+          {location.pathname.includes("intercollege") ? (
+            <a
+              href={registrationLink}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="bg-pink-500 text-white text-sm sm:text-base font-semibold px-6 py-3 rounded-lg 
+    shadow-lg transition-transform hover:scale-105 hover:shadow-pink-500/80 inline-block text-center"
+            >
+              Register Now
+            </a>
+          ) : (
+            <a
+              // href={registrationLink}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="bg-pink-500 text-white text-sm sm:text-base font-semibold px-6 py-3 rounded-lg 
+    shadow-lg transition-transform hover:scale-105 hover:shadow-pink-500/80 inline-block text-center"
+            >
+              Reach Following Event Coordinator
+            </a>
+          )}
+
         </div>
       </div>
     </div>
