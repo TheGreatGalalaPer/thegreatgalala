@@ -166,6 +166,8 @@ export const viewEventDetails = {
       fees: "₹100",
     },
     rules: [
+      "RampWalk is a Solo Event and Cosplay can be either Solo or Team of maximum 6 mmbers",
+      "Maximum 10 mins Duration For one performance for both",
       "Participants must wear decent and appropriate attire.",
       "Revealing, offensive, or inappropriate outfits are strictly prohibited.",
       "No indecent gestures or offensive expressions allowed.",
