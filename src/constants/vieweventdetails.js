@@ -34,7 +34,8 @@ export const viewEventDetails = {
     poster: solodance,
     url: "solodance",
     eventDetails: {
-      time: "-",
+      time1: "10.50 am - 12.00 pm",
+      time2:"",
       date1: "27 Mar 2025",
       date2: "28 Mar 2025",
 
@@ -60,7 +61,8 @@ export const viewEventDetails = {
     poster: groupdance,
     url: "groupdance",
     eventDetails: {
-      time: "-",
+      time1: "5.40 pm - 7.45 pm",
+      time2:"",
       date1: "27 Mar 2025",
       date2: "28 Mar 2025",
       fees: "₹50 per person",
@@ -85,7 +87,8 @@ export const viewEventDetails = {
     poster: battleofbands,
     url: "battleofbands",
     eventDetails: {
-      time: "-",
+      time1: "1.00 pm - 3.00 pm",
+      time2:"",
       date1: "27 Mar 2025",
       date2: "28 Mar 2025",
       fees: "₹50 per person",
@@ -114,7 +117,8 @@ export const viewEventDetails = {
     poster: mime,
     url: "mime",
     eventDetails: {
-      time: "-",
+      time1: "3.15 pm - 3.30 pm",
+      time2:"",
       date1: "27 Mar 2025",
       date2: "28 Mar 2025",
       fees: "₹50 per person",
@@ -138,7 +142,8 @@ export const viewEventDetails = {
     poster: adapttune,
     url: "adapttune",
     eventDetails: {
-      time: "-",
+      time1: "9.45 am - 10.50 am",
+      time2:"",
       date1: "27 Mar 2025",
       date2: "28 Mar 2025",
       fees: "₹50 per person",
@@ -160,7 +165,7 @@ export const viewEventDetails = {
     poster: rampwalk,
     url: "rampwalkandcosplay",
     eventDetails: {
-      time: "-",
+      time1: "4.30 pm - 5.40 pm",
       date1: "27 Mar 2025",
       date2: "28 Mar 2025",
       fees: "₹100",
@@ -186,7 +191,7 @@ export const viewEventDetails = {
     poster: channelsurfing,
     url: "channel_surfing",
     eventDetails: {
-      time: "-",
+      time1: "10.00 am - 11.00 am",
       date1: "27 Mar 2025",
       date2: "28 Mar 2025",
       fees: "₹50 per person",
@@ -210,7 +215,7 @@ export const viewEventDetails = {
     poster: musclemafia,
     url: "muscle_mafia",
     eventDetails: {
-      time: "-",
+      time1: "3.30 pm - 4.00 pm",
       date1: "27 Mar 2025",
       date2: "28 Mar 2025",
       fees: "₹ 100",
@@ -233,7 +238,7 @@ export const viewEventDetails = {
     poster: startmusic,
     url: "startmusic",
     eventDetails: {
-      time: "-",
+      time1: "10.00 am - 12.00 pm",
       date1: "27 Mar 2025",
       date2: "28 Mar 2025",
       fees: "₹50 per person",
@@ -256,7 +261,7 @@ export const viewEventDetails = {
     poster: reels,
     url: "reels",
     eventDetails: {
-      time: "-",
+      time1: "11.00 am - 12.00 pm",
       date1: "27 Mar 2025",
       date2: "28 Mar 2025",
       fees: "₹100",
@@ -278,7 +283,7 @@ export const viewEventDetails = {
     poster: animequiz,
     url: "animequiz",
     eventDetails: {
-      time: "-",
+      time1: "10.00 am - 11.00 am",
       date1: "27 Mar 2025",
       date2: "28 Mar 2025",
       fees: "₹50 per person",
@@ -300,7 +305,7 @@ export const viewEventDetails = {
     poster: boxcricket,
     url: "boxcricket",
     eventDetails: {
-      time: "-",
+      time1: "9.00 am - 11.00 am",
       date1: "27 Mar 2025",
       date2: "28 Mar 2025",
       fees: "₹50 per person",
@@ -327,7 +332,7 @@ export const viewEventDetails = {
     poster: connectionz,
     url: "connectionz",
     eventDetails: {
-      time: "-",
+      time1: "11.00 am - 12.00 pm",
       date1: "27 Mar 2025",
       date2: "28 Mar 2025",
       fees: "₹50 per person",
@@ -349,7 +354,7 @@ export const viewEventDetails = {
     poster: shortfilm,
     url: "shortfilm",
     eventDetails: {
-      time: "-",
+      time1: "11.00 am - 12.00 pm",
       date1: "27 Mar 2025",
       date2: "28 Mar 2025",
       fees: "₹50 per person",
@@ -372,7 +377,7 @@ export const viewEventDetails = {
     poster: esports,
     url: "esports",
     eventDetails: {
-      time: "-",
+      time1: "10.00 am - 12.00 pm",
       date1: "27 Mar 2025",
       date2: "28 Mar 2025",
       fees: "₹50 per person",
@@ -395,7 +400,7 @@ export const viewEventDetails = {
     poster: firelesscooking,
     url: "firelesscooking",
     eventDetails: {
-      time: "-",
+      time: "10.00 am - 11.00 am",
       date1: "27 Mar 2025",
       date2: "28 Mar 2025",
       fees: "₹50 per person",
@@ -419,7 +424,7 @@ export const viewEventDetails = {
     poster: iplauctionhouse,
     url: "iplauctionhouse",
     eventDetails: {
-      time: "-",
+      time: "9.00 am - 11.00 am",
       date1: "27 Mar 2025",
       date2: "28 Mar 2025",
       fees: "₹50 per person",
@@ -441,7 +446,7 @@ export const viewEventDetails = {
     poster: mehandi,
     url: "mehandi",
     eventDetails: {
-      time: "-",
+      time: "9.00 am - 10.00 am",
       date1: "27 Mar 2025",
       date2: "28 Mar 2025",
       fees: "₹100 per person",
@@ -589,7 +594,7 @@ export const viewEventDetails = {
     poster: solosinging,
     url: "solosinging",
     eventDetails: {
-      time: "-",
+      time: "11.00 am - 12.00 pm",
       date1: "27 Mar 2025",
       date2: "28 Mar 2025",
       fees: "₹100",

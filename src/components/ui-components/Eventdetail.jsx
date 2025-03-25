@@ -19,6 +19,10 @@ const Eventdetail = () => {
   const eventDate = location.pathname.includes("intercollege")
     ? event.eventDetails.date1
     : event.eventDetails.date2;
+  
+    const eventTime = location.pathname.includes("intercollege")
+    ? event.eventDetails.time1
+    : event.eventDetails.time2;
 
   // Registration Link
   const registrationLink = location.pathname.includes("intercollege")
@@ -107,7 +111,7 @@ const Eventdetail = () => {
               className="text-white text-sm sm:text-base leading-relaxed"
               style={{ fontFamily: "LexendDecaRegular, sans-serif" }}
             >
-              <strong>Time:</strong> {event.eventDetails.time}
+              <strong>Time:</strong> {eventTime}
             </p>
             {location.pathname.includes("intercollege") && (
               <p
