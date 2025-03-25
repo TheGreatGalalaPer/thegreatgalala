@@ -307,9 +307,12 @@ export const viewEventDetails = {
     },
     rules: [
       "Each team must have 6 players.",
-      "Matches will be played in a limited-overs format.",
+      "Matches will be played in a Four-overs format.",
+      "Single runs are not allowed.",
       "No running between wickets; scoring is based on boundaries.",
       "Fielders must not obstruct batters intentionally.",
+      "Under arm Bowling only allowed",
+      "A straight catch is valid, regardless of which hand is used.",
       "Decisions of the umpires will be final.",
       "Further Rules will be disclosed on Event Day."
     ],
