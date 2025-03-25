@@ -93,7 +93,7 @@ export const viewEventDetails = {
     rules: [
       "Each band should have 3-8 members.",
       "Drums Kit will be provided",
-      "The time limit to perform is 6 minutes and 3 minutes for sound check.",
+      "The time limit to perform is 6 minutes and 3 minutes for Setup.",
       "Backing tracks are not allowed.",
       "The team has to report 45 minutes prior the event.",
       "Obscene language or offensive content will lead to disqualification.",
@@ -166,7 +166,7 @@ export const viewEventDetails = {
       fees: "₹100",
     },
     rules: [
-      "RampWalk is a Solo Event and Cosplay can be either Solo or Team of maximum 6 mmbers",
+      "RampWalk is a Solo Event and Cosplay can be either Solo or Team of maximum 10 members",
       "Maximum 10 mins Duration For one performance for both",
       "Participants must wear decent and appropriate attire.",
       "Revealing, offensive, or inappropriate outfits are strictly prohibited.",
