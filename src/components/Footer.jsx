@@ -41,7 +41,7 @@ const Footer = () => {
                 Staff Co-Ordinators
               </h2>
               <ul className="text-gray-300 text-sm">
-                <li className="mb-4">Mr. Anil Kumar - 9566137223</li>
+                <li className="mb-4">Mr. Anil Kumarr - 9566137223</li>
                 <li className="mb-4">Dr. N. Thangam - 9025278164</li>
               </ul>
             </div>
