@@ -20,7 +20,7 @@ const About = () => {
         <div className="flex items-center w-full justify-center mt-16 mb-24">
           <div className="hidden sm:block flex-grow h-2 bg-white rounded-full"></div>
           <h2 className="text-xl sm:text-2xl md:text-3xl lg:text-5xl font-bold px-2 text-[#4AC3EB]">
-            Previously On
+            Previously
           </h2>
 
 
