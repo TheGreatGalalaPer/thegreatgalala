@@ -34,7 +34,7 @@ const Hero = () => {
   const border = useMotionTemplate`1px solid ${color}`;
   const boxShadow = useMotionTemplate`0px 4px 24px ${color}`;
   return (
-    <div className="flex flex-col items-center justify-center min-h-screen text-center p-6 pt-48 space-y-10 overflow-hidden ">
+    <div className="flex flex-col items-center justify-center min-h-screen text-center p-6 pt-48 pb-48 space-y-10 overflow-hidden ">
       <Fireworks />
       <span className="mb-1.5 inline-block px-3 py-1.5 text-sm">
         <img
