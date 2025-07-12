@@ -74,9 +74,9 @@ const Hero = () => {
         <FiArrowRight className="transition-transform group-hover:-rotate-45 group-active:-rotate-12" />
       </motion.button>
 
-      <div className="w-full flex justify-center ">
+      {/* <div className="w-full flex justify-center ">
         <Countdown />
-      </div>
+      </div> */}
     </div>
   );
 };
